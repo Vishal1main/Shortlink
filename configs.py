@@ -3,7 +3,7 @@ from os import getenv as genv
 API_ID = genv("API_ID", "23171051")
 API_HASH = genv("API_HASH", "10331d5d712364f57ffdd23417f4513c")
 BOT_TOKEN = genv("BOT_TOKEN", "")
-BASE_URL = genv("BASE_URL", "")
+BASE_URL = genv("BASE_URL", "https://static-mersey-permanent-d89bb6da.koyeb.app/")
 SUPPORT_GROUP = genv("SUPPORT_GROUP", "TMR_movie_request_group/")
 UPDATES_CHANNEL = genv("UPDATES_CHANNEL", "TMR_update_channel")
 DATABASE_URL = genv("DATABASE_URL", "mongodb+srv://tabolo8539:0evqZDV4fC5fD17c@cluster0.cw8zxus.mongodb.net/?retryWrites=true&w=majority")
